@@ -1,0 +1,17 @@
+name: sdss-modinf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - r-base
+  - r-irkernel
+  - r-tidymodels
+  - r-tidyverse
+  - r-vip
+  - r-ranger
+  - scikit-learn
+  - plotnine
+  - statsmodels
+  - altair
+  - pip:
+      - palmerpenguins
