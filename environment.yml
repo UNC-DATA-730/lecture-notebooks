@@ -1,4 +1,4 @@
-name: sdss-modinf
+name: data730-lecture
 channels:
   - conda-forge
 dependencies:
