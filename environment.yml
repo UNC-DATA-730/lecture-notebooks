@@ -1,6 +1,7 @@
 name: data730-lecture
 channels:
   - conda-forge
+  - chuckpr
 dependencies:
   - python=3.9
   - r-base
@@ -9,6 +10,8 @@ dependencies:
   - r-tidyverse
   - r-vip
   - r-ranger
+  - r-islr2
+  - r moderndive
   - scikit-learn
   - plotnine
   - statsmodels
