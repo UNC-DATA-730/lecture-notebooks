@@ -11,7 +11,7 @@ dependencies:
   - r-vip
   - r-ranger
   - r-islr2
-  - r moderndive
+  - r-moderndive
   - scikit-learn
   - plotnine
   - statsmodels
