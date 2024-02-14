@@ -16,5 +16,6 @@ dependencies:
   - plotnine
   - statsmodels
   - altair
+  - ipykernel
   - pip:
       - palmerpenguins
