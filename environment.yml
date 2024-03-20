@@ -12,6 +12,9 @@ dependencies:
   - r-ranger
   - r-islr2
   - r-moderndive
+  - r-rpart
+  - r-rpart.plot
+  - r-ranger
   - scikit-learn
   - plotnine
   - statsmodels
