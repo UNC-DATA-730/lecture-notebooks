@@ -15,6 +15,7 @@ dependencies:
   - r-rpart
   - r-rpart.plot
   - r-ranger
+  - r-palmerpenguins
   - scikit-learn
   - plotnine
   - statsmodels
