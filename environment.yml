@@ -4,6 +4,7 @@ channels:
   - chuckpr
 dependencies:
   - python=3.9
+  - jupyterlab-lsp
   - r-base
   - r-irkernel
   - r-tidymodels
