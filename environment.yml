@@ -24,3 +24,4 @@ dependencies:
   - ipykernel
   - pip:
       - palmerpenguins
+      - drawdata
