@@ -1,0 +1,16 @@
+{
+  "name": "DATA 730 Lecture Notebooks",
+  "image": "mcr.microsoft.com/devcontainers/miniconda:3",
+  "hostRequirements": { "cpus": 4, "memory": "8gb" },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "forwardPorts": [8888],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "REditorSupport.r"
+      ]
+    }
+  }
+}
