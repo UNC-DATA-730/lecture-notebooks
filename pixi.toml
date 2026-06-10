@@ -30,3 +30,14 @@ ipykernel = "*"
 [pypi-dependencies]
 palmerpenguins = "*"
 drawdata = "*"
+
+# JupyterLab frontend for running notebooks locally (e.g. on a laptop). It is
+# kept out of the default environment on purpose: the Codespaces devcontainer
+# uses the universal image's own JupyterLab, so `pixi install --locked` there
+# (see .devcontainer/setup.sh) never builds this env. Locally, launch with:
+#   pixi run -e lab jupyter lab
+[feature.lab.dependencies]
+jupyterlab = "*"
+
+[environments]
+lab = ["lab"]
