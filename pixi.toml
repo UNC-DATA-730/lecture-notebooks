@@ -1,0 +1,32 @@
+[project]
+authors = ["Chuck Pepe-Ranney <chuck.peperanney@gmail.com>"]
+channels = ["conda-forge", "chuckpr"]
+description = "Add a short description here"
+name = "data730-lecture"
+platforms = ["osx-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.9.*"
+r-base = "*"
+r-irkernel = "*"
+r-tidymodels = "*"
+r-tidyverse = "*"
+r-vip = "*"
+r-ranger = "*"
+r-islr2 = "*"
+r-moderndive = "*"
+r-rpart = "*"
+"r-rpart.plot" = "*"
+r-palmerpenguins = "*"
+scikit-learn = "*"
+plotnine = "*"
+statsmodels = "*"
+altair = "*"
+ipykernel = "*"
+
+[pypi-dependencies]
+palmerpenguins = "*"
+drawdata = "*"
