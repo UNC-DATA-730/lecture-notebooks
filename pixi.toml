@@ -7,9 +7,10 @@ platforms = ["osx-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
+run-lab = { cmd = "jupyter lab --ip='*' --no-browser", default-environment = "lab" }
 
 [dependencies]
-python = "3.9.*"
+python = "3.13.*"
 r-base = "*"
 r-irkernel = "*"
 r-tidymodels = "*"
@@ -26,6 +27,8 @@ plotnine = "*"
 statsmodels = "*"
 altair = "*"
 ipykernel = "*"
+drawdata = ">=0.5.2,<0.6"
+jupyterlab = ">=4.6.2,<5"
 
 [pypi-dependencies]
 palmerpenguins = "*"
@@ -38,6 +41,7 @@ drawdata = "*"
 #   pixi run -e lab jupyter lab
 [feature.lab.dependencies]
 jupyterlab = "*"
+nbclassic = "*"
 
 [environments]
 lab = ["lab"]
