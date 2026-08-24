@@ -3,7 +3,7 @@ authors = ["Chuck Pepe-Ranney <chuck.peperanney@gmail.com>"]
 channels = ["conda-forge", "chuckpr"]
 description = "Add a short description here"
 name = "data730-lecture"
-platforms = ["osx-64", "linux-64"]
+platforms = ["osx-64", "osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
