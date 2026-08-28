@@ -1,0 +1,28 @@
+name: data730-lecture
+channels:
+  - conda-forge
+  - chuckpr
+dependencies:
+  - python=3.13.*
+  - r-base
+  - r-irkernel
+  - r-tidymodels
+  - r-tidyverse
+  - r-vip
+  - r-ranger
+  - r-islr2
+  - r-moderndive
+  - r-rpart
+  - r-rpart.plot
+  - r-palmerpenguins
+  - scikit-learn
+  - plotnine
+  - statsmodels
+  - altair
+  - ipykernel
+  - drawdata>=0.5.2,<0.6
+  - jupyterlab>=4.6.2,<5
+  - pip
+  - pip:
+      - palmerpenguins
+      - drawdata
