@@ -34,10 +34,10 @@ jupyterlab = ">=4.6.2,<5"
 palmerpenguins = "*"
 drawdata = "*"
 
-# JupyterLab frontend for running notebooks locally (e.g. on a laptop). It is
-# kept out of the default environment on purpose: the Codespaces devcontainer
-# uses the universal image's own JupyterLab, so `pixi install --locked` there
-# (see .devcontainer/setup.sh) never builds this env. Locally, launch with:
+# JupyterLab frontend for running notebooks locally (e.g. on a laptop). The
+# Codespaces devcontainer never runs pixi: it pulls the prebuilt
+# ghcr.io/unc-data-730/env image, which is built from a copy of this file and
+# pixi.lock in github.com/UNC-DATA-730/env. Locally, launch with:
 #   pixi run -e lab jupyter lab
 [feature.lab.dependencies]
 jupyterlab = "*"
